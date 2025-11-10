@@ -5,10 +5,11 @@ import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Projects } from './pages/projects/projects';
 import { Contact } from './pages/contact/contact';
+import { Tecnologias } from './pages/tecnologias/tecnologias';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Footer, Home, About, Projects, Contact],
+  imports: [Navbar, Footer, Home, About, Projects, Contact, Tecnologias],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

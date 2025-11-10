@@ -15,22 +15,6 @@ body {
   height: 100%;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.animate-gradient {
-  animation: gradient 8s ease infinite;
-}
-
 /* Text stroke effect */
 .text-stroke {
   text-shadow: -1px -1px 0 #065f46, 1px -1px 0 #065f46, -1px 1px 0 #065f46, 1px 1px 0 #065f46,
