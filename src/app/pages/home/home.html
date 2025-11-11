@@ -1,19 +1,65 @@
-<section class="min-h-screen flex items-center justify-center p-8">
+<section class="min-h-screen flex items-center justify-center p-8 relative">
   <div class="max-w-6xl w-full flex items-center justify-center gap-12">
     <div class="flex flex-col text-left">
-      <h2 class="text-4xl md:text-8xl font-grotesk font-bold text-purple-500 mb-4">
+      <h2 class="text-4xl md:text-8xl font-grotesk font-bold text-purple-800 mb-4">
         ¡Hola, soy Juani!
       </h2>
 
-      <h2 class="text-4xl md:text-2xl font-grotesk font-bold text-purple-500 mb-4">
+      <h2 class="text-4xl md:text-2xl font-grotesk font-bold text-purple-800 mb-4">
         Desarrolladora Full-stack
       </h2>
+
+      <div class="flex gap-6 mt-4">
+        <a
+          href="https://github.com/jbmc99"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          aria-label="GitHub"
+        >
+          <img src="icons/github.png" alt="GitHub" class="w-8 h-8" />
+        </a>
+
+        <a
+          href="mailto:juanabmcatena7@gmail.com"
+          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          aria-label="Gmail"
+        >
+          <img src="icons/gmail.png" alt="Gmail" class="w-8 h-8" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/juana-belen-morillo-catena/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          aria-label="LinkedIn"
+        >
+          <img src="icons/linkedin.png" alt="LinkedIn" class="w-8 h-8" />
+        </a>
+      </div>
     </div>
 
     <img
       src="./foto.jpg"
       alt="Foto de Juani"
-      class="w-32 h-32 rounded-full object-cover shadow-lg"
+      class="w-48 h-48 rounded-full object-cover shadow-xl"
     />
   </div>
+
+  <a
+    href="#sobre-mi"
+    class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-purple-800 hover:text-purple-500 transition-colors animate-bounce cursor-pointer"
+    aria-label="Scroll hacia abajo"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="w-12 h-12"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </a>
 </section>

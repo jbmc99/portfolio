@@ -1,19 +1,18 @@
-<section class="min-h-screen flex items-center justify-center p-8">
+<section class="min-h-screen flex items-center justify-center p-8 relative">
   <div class="max-w-6xl w-full flex items-center justify-center gap-16">
-    <!-- Contenido principal a la izquierda -->
-    <div class="flex flex-col text-left max-w-3xl">
-      <!-- Título principal -->
+    <div class="flex flex-col text-left">
       <h2 class="text-4xl md:text-6xl font-grotesk font-bold text-purple-800 mb-6">Sobre mí</h2>
 
-      <!-- Descripción -->
       <div class="space-y-4 text-gray-700">
         <p class="text-lg md:text-xl font-roboto leading-relaxed">
           Soy una <span class="font-semibold text-purple-800">desarrolladora Full-Stack</span>
-          apasionada por crear experiencias digitales que combinan funcionalidad y diseño elegante.
+          con una fuerte orientación al detalle y pasión por crear experiencias digitales intuitivas
+          y bien estructuradas
         </p>
 
         <p class="text-lg md:text-xl font-roboto leading-relaxed">
-          Mi enfoque se centra en desarrollar aplicaciones web modernas utilizando tecnologías como
+          Mi enfoque se centra en combinar la lógica del desarrollo con el diseño visual para
+          construir aplicaciones web modernas utilizando tecnologías como
           <span class="font-semibold text-purple-800">Angular</span>,
           <span class="font-semibold text-purple-800">Vue.js</span>,
           <span class="font-semibold text-purple-800">Node.js</span> y
@@ -21,57 +20,32 @@
         </p>
 
         <p class="text-lg md:text-xl font-roboto leading-relaxed">
-          Me encanta resolver problemas complejos y transformar ideas en productos digitales que
-          realmente impacten a los usuarios.
+          Me motiva dar forma a proyectos que resuelven necesidades reales, cuidando tanto la
+          experiencia del usuario como la calidad del código.
         </p>
       </div>
-
-      <!-- Habilidades -->
-      <div class="mt-8">
-        <h3 class="text-2xl font-grotesk font-bold text-purple-800 mb-4">Tecnologías que manejo</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >Angular</span
-          >
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium">Vue.js</span>
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >JavaScript</span
-          >
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >TypeScript</span
-          >
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >Node.js</span
-          >
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium">Django</span>
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium">Python</span>
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >CSS/SCSS</span
-          >
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-lg font-medium"
-            >Tailwind CSS</span
-          >
-        </div>
-      </div>
     </div>
 
-    <!-- Elemento visual a la derecha -->
-    <div class="hidden md:flex flex-col items-center space-y-6">
-      <div
-        class="w-24 h-24 bg-gradient-to-tr from-purple-400 to-purple-600 rounded-full flex items-center justify-center shadow-lg"
-      >
-        <span class="text-white text-3xl"></span>
-      </div>
-      <div
-        class="w-24 h-24 bg-gradient-to-tr from-purple-300 to-purple-500 rounded-full flex items-center justify-center shadow-lg"
-      >
-        <span class="text-white text-2xl"></span>
-      </div>
-      <div
-        class="w-24 h-24 bg-gradient-to-tr from-purple-200 to-purple-400 rounded-full flex items-center justify-center shadow-lg"
-      >
-        <span class="text-white text-xl"></span>
-      </div>
+    <div class="hidden md:flex flex-col items-center space-y-8">
+      <img src="icons/about1.png" alt="Desarrollo" class="w-24 h-24 object-contain" />
+      <img src="icons/about2.png" alt="Diseño" class="w-24 h-24 object-contain" />
+      <img src="icons/about3.png" alt="Innovación" class="w-24 h-24 object-contain" />
     </div>
   </div>
+
+  <a
+    href="#proyectos"
+    class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-purple-800 hover:text-purple-500 transition-colors animate-bounce cursor-pointer"
+    aria-label="Scroll hacia abajo"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="w-12 h-12"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </a>
 </section>
