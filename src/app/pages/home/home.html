@@ -1,20 +1,44 @@
 <section class="min-h-screen flex items-center justify-center p-8 relative">
-  <div class="max-w-6xl w-full flex items-center justify-center gap-12">
-    <div class="flex flex-col text-left">
-      <h2 class="text-4xl md:text-8xl font-grotesk font-bold text-purple-800 mb-4">
+  <div class="max-w-6xl w-full flex items-center justify-center gap-12 mx-auto">
+    <div class="flex flex-col text-left flex-1 max-w-3xl">
+      <h2 class="text-4xl md:text-8xl font-grotesk font-bold text-blue-800 mb-4 animate-fade-in-up" style="text-shadow: 2px 2px 0px #bfdbfe, -2px -2px 0px #bfdbfe, 2px -2px 0px #bfdbfe, -2px 2px 0px #bfdbfe;">
         ¡Hola, soy Juani!
       </h2>
 
-      <h2 class="text-4xl md:text-2xl font-grotesk font-bold text-purple-800 mb-4">
+      <h2 class="text-8xl md:text-2xl font-grotesk font-bold text-blue-700 mb-4">
         Desarrolladora Full-stack
       </h2>
+      
+      <div class="space-y-4 text-gray-700">
+        <p class="text-lg md:text-xl font-roboto leading-relaxed">
+          Soy una <span class="font-semibold text-blue-700">desarrolladora Full-Stack</span>
+          con una fuerte orientación al detalle y pasión por crear experiencias digitales intuitivas
+          y bien estructuradas
+        </p>
+
+        <p class="text-lg md:text-xl font-roboto leading-relaxed">
+          Mi enfoque se centra en combinar la lógica del desarrollo con el diseño visual para
+          construir aplicaciones web modernas utilizando tecnologías como
+          <span class="font-semibold text-blue-700">Angular</span>,
+          <span class="font-semibold text-blue-700">Vue.js</span>,
+          <span class="font-semibold text-blue-700">Node.js</span> y
+          <span class="font-semibold text-blue-700">Django</span>.
+        </p>
+
+        <p class="text-lg md:text-xl font-roboto leading-relaxed">
+          Me motiva dar forma a proyectos que resuelven necesidades reales, cuidando tanto la
+          experiencia del usuario como la calidad del código.
+        </p>
+      </div>
+
+
 
       <div class="flex gap-6 mt-4">
         <a
           href="https://github.com/jbmc99"
           target="_blank"
           rel="noopener noreferrer"
-          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          class="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 hover:scale-110 transition-all duration-300 shadow-md"
           aria-label="GitHub"
         >
           <img src="icons/github.png" alt="GitHub" class="w-8 h-8" />
@@ -22,7 +46,7 @@
 
         <a
           href="mailto:juanabmcatena7@gmail.com"
-          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          class="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 hover:scale-110 transition-all duration-300 shadow-md"
           aria-label="Gmail"
         >
           <img src="icons/gmail.png" alt="Gmail" class="w-8 h-8" />
@@ -32,24 +56,39 @@
           href="https://www.linkedin.com/in/juana-belen-morillo-catena/"
           target="_blank"
           rel="noopener noreferrer"
-          class="bg-purple-100 p-3 rounded-lg hover:bg-purple-200 hover:scale-110 transition-all duration-300 shadow-md"
+          class="bg-blue-100 p-3 rounded-lg hover:bg-blue-200 hover:scale-110 transition-all duration-300 shadow-md"
           aria-label="LinkedIn"
         >
           <img src="icons/linkedin.png" alt="LinkedIn" class="w-8 h-8" />
         </a>
+        
+        <!-- Botón de descarga de CV -->
+        <a
+          href="#"
+          class="group bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-3 rounded-xl hover:from-blue-600 hover:to-blue-700 hover:scale-105 hover:shadow-lg transition-all duration-300 shadow-md flex items-center gap-2"
+          aria-label="Descargar CV"
+        >
+          <svg class="w-5 h-5 group-hover:bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          <span class="text-sm font-medium">CV</span>
+        </a>
       </div>
     </div>
 
-    <img
-      src="./foto.jpg"
-      alt="Foto de Juani"
-      class="w-48 h-48 rounded-full object-cover shadow-xl"
-    />
+    <div class="flex-shrink-0 relative">
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full animate-spin" style="animation-duration: 8s;"></div>
+      <img
+        src="./foto.jpg"
+        alt="Foto de Juani"
+        class="w-48 h-48 rounded-full object-cover shadow-xl relative z-10 m-1 border-4 border-white"
+      />
+    </div>
   </div>
 
   <a
-    href="#sobre-mi"
-    class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-purple-800 hover:text-purple-500 transition-colors animate-bounce cursor-pointer"
+    href="#proyectos"
+    class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-blue-800 hover:text-blue-500 transition-colors animate-bounce cursor-pointer"
     aria-label="Scroll hacia abajo"
   >
     <svg
